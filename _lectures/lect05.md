@@ -102,7 +102,7 @@ print(a.getSound()) # I’m an Animal!!!
 class Cow(Animal):
 	def getSound(self):
 		s = "Using Super class getSound method\n"
-		s += Animal.getSound() + "\n" # Uses Animal.getSound method
+		s += Animal.getSound(self) + "\n" # Uses Animal.getSound method
 		s += "Extending it with our own getSound functionality" + "\n"
 		s += "{}!!!".format(self.sound, self.sound)
 		return s
