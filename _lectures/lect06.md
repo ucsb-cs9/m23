@@ -1,6 +1,6 @@
 ---
 num: "Lecture 6"
-desc: "Recursion, Python Lists vs. Dictionaries"
+desc: "Recursion, Python Lists vs. Dictionaries, Midterm Guide"
 ready: true
 lecture_date: 2023-08-17 09:30:00.00-7:00
 ---
@@ -162,3 +162,76 @@ print("Time elapsed with DICT (in seconds):", end - start)
 		* We do not have to scan the underlying list structure since a key will always be placed into a specific location in the the underlying list
 		* We won't go into the implementation now, but we'll revist this in more detail later
 * There are MANY ways to solve a problem in programming, but understanding how certain tools work and making the best decisions is important!
+
+# Midterm Guide
+
+```
+Time:
+* In-person (BIOEN 1001), Thursday 8/24 9:30am - 10:50am PST
+
+Logistics:
+* Bring a writing utensil and student ID
+* Please write legibly (if we can't read your answer, we can't grade it)
+* When leaving the room, you must hand in your exam and present your ID
+* Closed book (no notes / book / electronic devices)
+* TAs and I will be proctoring the exam. We can answer any CLARIFYING questions
+
+Possible Types of Questions:
+* True / False (if False, briefly state why (1 sentence))
+* Short Answer - Briefly define / state / describe / ...
+* Given some code, write the output / state the O-notation
+* Write code satisfying a specification
+* Given some partial algorithm, fill in the blank to make it work
+* Draw diagrams
+
+Midterm Topics:
+
+Will cover material from the beginning of the class up until the end of week 3 lecture, h00 - h03, lab00 - lab03
+
+Python Basics 
+- Types
+    * I don't expect students to know ALL Python basics, but do expect students to know the ones we explicitly covered in lectures and/or assignments
+    * int, float, boolean, strings, lists, sets, dictionaries, ...
+    * conversion functions (int(), float(), str(), ...)
+    * mutable vs. immutable
+- Relational / logical operators (==, <, >, <=, >=, and, or, not, ...)
+- Python Lists
+    * Supporting methods (count, pop, append, insert, ...)
+    * List / string slicing [:]
+- Strings
+    * Supporting methods (replace, split, find, ...)
+- Function definitions
+- Control Structures (if, else, elif, for, while, ...)
+
+Python Errors / Exceptions
+- Runtime vs. Syntax
+- Exception types
+- Exception handling
+    * try / except / raise
+    * Flow of execution
+    * Passing exceptions to function / method caller(s) when not handled in try / except
+    * Multiple except blocks
+
+Object Oriented Programming
+- Defining classes and methods
+- constructors (defining / initializing default state)
+- Shallow vs. Deep equality (overloading __eq__ method)
+- Overloading operators (__str__, __add__, __le__, ...)
+- Inheritance
+    * Know method lookup for inheritance hierarchy
+    * implementation for inherited fields / methods
+    * overriding inherited methods
+    * calling super / base class(es) methods
+
+Testing
+- Test Driven Development (TDD)
+- pytest
+
+Algorithm Analysis and O-notation
+- Know how to derive O-notation for snippets of code
+
+Recursion
+- Implementation of recursive functions
+- Understanding how recursive algorithms are managed by the call stack
+- Note: I'll defer deriving O-notation questions for recursive functions / methods to the final exam
+```
