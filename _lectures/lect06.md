@@ -186,7 +186,7 @@ Possible Types of Questions:
 
 Midterm Topics:
 
-Will cover material from the beginning of the class up until the end of week 3 lecture, h00 - h03, lab00 - lab03
+Will cover material from the beginning of the class up until the end of week 2 lecture, h00 - h03, lab00 - lab03
 
 Python Basics 
 - Types
