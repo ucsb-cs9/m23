@@ -211,7 +211,7 @@ Python Errors / Exceptions
     * Flow of execution
     * Passing exceptions to function / method caller(s) when not handled in try / except
     * Multiple except blocks
-	* Handling Exceptions in an Inheritance hierarchy
+    * Handling Exceptions in an Inheritance hierarchy
 
 Object Oriented Programming
 - Defining classes and methods
