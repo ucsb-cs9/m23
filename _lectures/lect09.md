@@ -7,7 +7,8 @@ lecture_date: 2023-08-24 09:30:00.00-7:00
 
 Recorded Lecture: [Linked Lists](https://drive.google.com/file/d/1jfjrSqTnjFWkVCGoqVlhVz2HV7IwcMbb/view?usp=sharing)
 
-```As stated in class, I'm linking a recorded lecture from a 
+```
+As stated in class, I'm linking a recorded lecture from a 
 previous offering of CS 9. Please watch the before our next 
 lecture on Tuesday 8/29.
 
@@ -15,6 +16,7 @@ You can ignore any announcements / reminders in the video.
 Reminders relevant for this course are:
 * h04 due Tuesday 8/29 by 9:30AM
 * lab04 due Tuesday 8/29 by 11:59PM
+
 ```
 
 ## LinkedList Implementation (Chapter 3.6.2)
