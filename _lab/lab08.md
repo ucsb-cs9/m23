@@ -7,7 +7,7 @@ assigned: 2023-09-03 12:00:00-7
 due: 2023-09-14 23:59:59-7
 ---
 
-** Note: This lab DOES NOT have a 24-hour late window **
+**Note: This lab DOES NOT have a 24-hour late window**
 
 In this lab, you'll have the opportunity to practice:
 
